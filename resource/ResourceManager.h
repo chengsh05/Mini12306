@@ -10,7 +10,7 @@ class ResourceManager {
         ResourceManager();
         ~ResourceManager();
 
-        void initResource();
+        void initMap();
     //    bool SearchTicket(Station begin,Station end);
     //    bool SellTicket(Station begin,Station end); 
 
@@ -18,4 +18,5 @@ class ResourceManager {
         void initStation();
     private:
         vector<string> m_station_name;
+        vector<Station> m_station_map;
 };
