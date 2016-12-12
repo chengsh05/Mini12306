@@ -1,4 +1,5 @@
 #include "Station.h"
+using namespace std;
 
 Station::Station(bool is_head,int map_key,string station_name)
     : m_is_head(is_head)
@@ -11,6 +12,6 @@ Station::Station(bool is_head,int map_key,string station_name)
 
 Station::~Station()
 {
-
+    m_next_station = nullptr;
 }
 

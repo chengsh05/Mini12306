@@ -1,5 +1,8 @@
 #include<string>
 #include<vector>
+
+#include "Station.h"
+
 using namespace std;
 
 class ResourceManager {
@@ -7,7 +10,7 @@ class ResourceManager {
         ResourceManager();
         ~ResourceManager();
 
-    //    void initResource();
+        void initResource();
     //    bool SearchTicket(Station begin,Station end);
     //    bool SellTicket(Station begin,Station end); 
 

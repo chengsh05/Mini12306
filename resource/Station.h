@@ -7,7 +7,7 @@ using namespace std;
 class Station
 {
     public:
-        Station(bool ishead,int mapkey,string stationname);
+        Station(bool is_head,int map_key,string station_name);
         ~Station();
         string getStationName() { return m_station_name; }
 
